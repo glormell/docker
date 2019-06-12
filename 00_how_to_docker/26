@@ -1,0 +1,1 @@
+docker service create -d -e OC_USERNAME=rocket -e OC_PASSWD=foods --replicas 2 --network overmind --name engineering-bay 42school/engineering-bay

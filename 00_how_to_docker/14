@@ -1,0 +1,1 @@
+docker run --name lair --detach --link spawning-pool:mysql --publish 8080:80 wordpress
